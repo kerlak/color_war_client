@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:phoenix_wings/phoenix_wings.dart';
-import 'dart:math' as math;
 
 class ColorBattle extends StatefulWidget {
   ColorBattle({Key key, this.channel}) : super(key: key);
