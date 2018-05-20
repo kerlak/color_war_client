@@ -22,7 +22,7 @@ class ColorWarState extends State<ColorWar> {
 
     return
       new Container(
-        decoration: new BoxDecoration(color: Colors.blue),
+        decoration: new BoxDecoration(color: Colors.deepPurple),
         child: new Stack(
           children: <Widget>[
             new ColorBattle(channel: channel),
@@ -30,8 +30,8 @@ class ColorWarState extends State<ColorWar> {
               direction: Axis.horizontal,
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                new ColorCounter(color: "Red", colorIndex: 1, channel: channel),
-                new ColorCounter(color: "Blue", colorIndex: 2, channel: channel),
+                new ColorCounter(color: "Orange", colorIndex: 1, channel: channel),
+                new ColorCounter(color: "Purple", colorIndex: 2, channel: channel),
               ],
             ),
           ],

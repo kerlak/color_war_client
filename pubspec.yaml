@@ -8,7 +8,10 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.0
-  phoenix_wings: "^0.0.3"
+  phoenix_wings:
+    git:
+      url: https://github.com/mfeckie/phoenix_wings.git
+      ref: 818a10a4c42f0ed5963cc71b6b030db55ec45d76
   flutter_redux: "^0.5.0"
 
 dev_dependencies:
@@ -55,5 +58,5 @@ flutter:
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
-  # For details regarding fonts from package dependencies, 
+  # For details regarding fonts from package dependencies,
   # see https://flutter.io/custom-fonts/#from-packages

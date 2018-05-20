@@ -17,7 +17,6 @@ class ColorBattleState extends State<ColorBattle> {
     int color_2 = payload["color_2"];
     if(color_1 != 0 || color_2 != 0) {
       ratio = color_1 / (color_1 + color_2);
-      print(ratio);
     }
     setState(() {
       ratio = ratio;
@@ -41,7 +40,7 @@ class ColorBattleState extends State<ColorBattle> {
     return new Container(
       width: width * ratio,
       height: height,
-      decoration: new BoxDecoration(color: Colors.red),
+      decoration: new BoxDecoration(color: Colors.deepOrange),
     );
   }
 }

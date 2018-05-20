@@ -39,6 +39,7 @@ class ColorCounterState extends State<ColorCounter> {
   @override
   Widget build(BuildContext context) {
     return new Column(
+      mainAxisSize: MainAxisSize.max,
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
         new MaterialButton(
